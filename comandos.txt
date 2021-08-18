@@ -1,0 +1,62 @@
+# python manage.py shell
+# from dojo_ninjas_app.models import *
+# new_dojo=Dojo.objects.create(name="haru",city="Los Angeles",state="CA")
+# new_dojo.save()
+# new_dojo=Dojo.objects.create(name="Hokusai",city="Washington",state="DC")
+# new_dojo.save()
+# new_dojo=Dojo.objects.create(name="Kun",city="Atlanta",state="GA")
+# new_dojo.save()
+# dojo_del=Dojo.objects.get(name="haru")
+# dojo_del.delete()
+# dojo_del=Dojo.objects.get(name="Hokusai")
+# dojo_del.delete()
+# dojo_del=Dojo.objects.get(name="Kun")
+# dojo_del.delete()
+# new_dojo=Dojo.objects.create(name="haru",city="Los Angeles",state="CA")
+# new_dojo.save()
+# new_dojo=Dojo.objects.create(name="Hokusai",city="Washington",state="DC")
+# new_dojo.save()
+# new_dojo=Dojo.objects.create(name="Kun",city="Atlanta",state="GA")
+# new_dojo.save()
+
+# this_dojo=Dojo.objects.get(name="haru")
+# new_ninja=Ninja.objects.create(first_name="Carlos",last_name="Rozas",dojo=this_dojo)                              
+# new_ninja.save()
+# new_ninja=Ninja.objects.create(first_name="Rodrigo",last_name="Feliu",dojo=this_dojo)                              
+# new_ninja.save()
+# new_ninja=Ninja.objects.create(first_name="Gustavo",last_name="Lopez",dojo=this_dojo)                              
+# new_ninja.save()
+
+
+# this_dojo=Dojo.objects.get(name="Hokusai")     
+# new_ninja=Ninja.objects.create(first_name="Christian",last_name="Sarmiento",dojo=this_dojo)      
+# new_ninja.save()    
+# new_ninja=Ninja.objects.create(first_name="Loreto",last_name="Ormeño",dojo=this_dojo)       
+# new_ninja.save()
+# new_ninja=Ninja.objects.create(first_name="Alejandro",last_name="Cofre",dojo=this_dojo)              
+# new_ninja.save()
+
+# this_dojo=Dojo.objects.get(name="Kun")        
+# new_ninja=Ninja.objects.create(first_name="Mauricio",last_name="Abarca",dojo=this_dojo)         
+# new_ninja.save()
+# new_ninja=Ninja.objects.create(first_name="Carolina",last_name="Correa",dojo=this_dojo)         
+# new_ninja.save()
+# new_ninja=Ninja.objects.create(first_name="Macarena",last_name="Brown",dojo=this_dojo)          
+# new_ninja.save()
+
+# this_dojo=Dojo.objects.get(name="haru")
+# this_dojo.ninjas.all()
+# Ninja.objects.filter(dojo=this_dojo)
+
+# this_dojo=Dojo.objects.last()
+# Ninja.objects.filter(dojo=this_dojo)
+
+# last_ninja=Ninja.objects.last()
+# last_ninja.name       
+# Ninja.objects.filter(first_name=last_ninja)
+
+# python manage.py makemigrations
+# python manage.py migrate
+
+# new_dojo=Dojo.objects.create(name="Cobrakai",desc="Dojo del Karate Kid",city="Miami",state="FL")
+# new_dojo.save()
